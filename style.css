@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.calculate {
+    background-color: orange;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    text-align: center;
+}
+
+#textOne, #textTwo, #textSolution, #solution, #btn {
+    margin-top: 10px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#btn {
+    cursor: pointer;
+}
+
+#text {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
